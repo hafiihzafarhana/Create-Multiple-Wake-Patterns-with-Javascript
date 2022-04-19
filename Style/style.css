@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: black;
+    /* overflow: scroll; */
+}
+
+nav{
+    text-align: center;
+    color: white;
+    background-color: rgb(18, 175, 89);
+    padding: 10px 40px;
+    width: 100%;
+}
+
+.konten{
+    /* overflow: scroll; */
+    position: relative;
+    margin: auto;
+    color: black;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+.konten-input{
+    flex-direction:column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.p-text{
+    color: white;
+    text-align: center;
+}
+
+.input-reset{
+    margin-top: 3px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+}
+
+.konten-span{
+    /* overflow: scroll; */
+    /* position: absolute; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#hasil{
+    overflow: hidden;
+    /* justify-content: center;
+    display: flex;
+    align-items: center; */
+    /* display: block; */
+}
+
+#tinggi{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(18, 175, 89);
+    width: 60%;
+    color: white;
+}
+
+#tinggi:hover{
+    cursor: progress;
+}
+
+#tinggi::placeholder{
+    color: white;
+}
+
+.k-input-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn{
+    margin: 1px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+
+.btn-segitiga-6{
+    background-color: royalblue;
+}
+
+.btn-segitiga-5{
+    background-color: darkblue;
+}
+
+.btn-segitiga-4{
+    background-color: rgb(36, 122, 57);
+}
+
+.btn-segitiga-3{
+    background-color: blueviolet;
+}
+
+.btn-segitiga-2{
+    background-color: chocolate;
+}
+
+.btn-segitiga-1{
+    background-color:gray;
+}
+
+.btn-kotak{
+    background-color: teal;
+}
+

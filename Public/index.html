@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="/assets/logo/logo.png" type="image/icon type">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Pola</title>
+    <link rel="stylesheet" href="../Style/style.css">
+</head>
+<body>
+    <nav>
+        <h1>Hafi Ihza Farhana / 20081010094</h1>
+    </nav>
+    <div class="konten">
+        <p class="p-text">Maksimal batal isi adalah 15</p>
+        <div class="konten-input">
+            <!-- <form action=""> -->
+            <input type="text" id="tinggi" name="tinggi" placeholder="Masukan tinggi bangun datar ..." maxlength="2" max="50" min="1" required>
+            <div class="k-input-button">
+                <button onclick="hasil(1)" class="btn btn-segitiga-1">Segitiga 1</button>
+                <button onclick="hasil(2)" class="btn btn-segitiga-2">Segitiga 2</button>
+                <button onclick="hasil(3)" class="btn btn-segitiga-3">Segitiga 3</button>
+                <button onclick="hasil(4)" class="btn btn-segitiga-4">Segitiga 4</button>
+                <button onclick="hasil(5)" class="btn btn-segitiga-5">Segitiga 5</button>
+                <button onclick="hasil(6)" class="btn btn-segitiga-6">Segitiga 6</button>
+            </div>
+            <div class="k-input-button">
+                <button onclick="hasil(7)" class="btn btn-kotak">Kotak</button>
+            </div>
+        </div>
+        
+        <div class="konten-span">
+            <p id="hasil"></p>
+        </div>
+    <!-- </form> -->
+    </div>
+
+        <script src="../script/app.js"></script>
+    
+</body>
+</html>
